@@ -16,5 +16,32 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+        private Form currentFormChild;
+        private void OpenChildForm(Form childForm)
+        {
+            if(currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel2.Controls.Add(childForm);
+            panel2.Tag=childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        private void QLBaiDoXe_Load(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new NhanVien());
+
+        }
     }
 }
