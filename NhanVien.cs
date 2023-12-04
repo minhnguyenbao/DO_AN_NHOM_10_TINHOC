@@ -54,25 +54,7 @@ namespace WindowsFormsApp1
             HienThiDSNhanVien();
         }
 
-        private void btn_them_Click(object sender, EventArgs e)
-        {
-            CNhanVien nv = new CNhanVien();
-            nv.MaNV=txtMaNV.Text;
-            nv.TenNV=txtTenNV.Text;
-            nv.NgaySinh = dtNgaySinh.Value;
-            nv.GioiTinh = rNam.Checked;
-            nv.CCCD=txtCCCD.Text;
-            nv.SDT=txtSDT.Text;
-            nv.DiaChi=txtDiaChi.Text;
-            if (timNV(nv.MaNV) == null)
-            {
-                xulyNhanVien.them(nv);
-                
-                HienThiDSNhanVien();
-            }
-            else
-                MessageBox.Show("Mã nhân viên " + nv.MaNV + " đã tồn tại!");
-        }
+        
 
         private void btn_xoa_Click(object sender, EventArgs e)
         {
@@ -108,13 +90,13 @@ namespace WindowsFormsApp1
 
         private void dgvNV_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
-            //txtMaNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[0].Value.ToString();
-            //txtTenNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[1].Value.ToString();
-            //dtNgaySinh.Value = (DateTime)dgvNhanVien.Rows[e.RowIndex].Cells[2].Value;
-            //rNam.Checked = (bool)dgvNhanVien.Rows[e.RowIndex].Cells[3].Value;
-            //txtCCCD.Text = dgvNhanVien.Rows[e.RowIndex].Cells[4].Value.ToString();
-            //txtSDT.Text = dgvNhanVien.Rows[e.RowIndex].Cells[5].Value.ToString();
-            //txtDiaChi.Text = dgvNhanVien.Rows[e.RowIndex].Cells[6].Value.ToString();
+            txtMaNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txtTenNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[1].Value.ToString();
+            dtNgaySinh.Value = (DateTime)dgvNhanVien.Rows[e.RowIndex].Cells[2].Value;
+            rNam.Checked = (bool)dgvNhanVien.Rows[e.RowIndex].Cells[3].Value;
+            txtCCCD.Text = dgvNhanVien.Rows[e.RowIndex].Cells[4].Value.ToString();
+            txtSDT.Text = dgvNhanVien.Rows[e.RowIndex].Cells[5].Value.ToString();
+            txtDiaChi.Text = dgvNhanVien.Rows[e.RowIndex].Cells[6].Value.ToString();
         }
 
         private void btn_Luu_Click(object sender, EventArgs e)
@@ -138,6 +120,26 @@ namespace WindowsFormsApp1
                     e.FormattingApplied = true;
                 }
             }
+        }
+
+        private void btn_Them_Click(object sender, EventArgs e)
+        {
+            CNhanVien nv = new CNhanVien();
+            nv.MaNV = txtMaNV.Text;
+            nv.TenNV = txtTenNV.Text;
+            nv.NgaySinh = dtNgaySinh.Value;
+            nv.GioiTinh = rNam.Checked;
+            nv.CCCD = txtCCCD.Text;
+            nv.SDT = txtSDT.Text;
+            nv.DiaChi = txtDiaChi.Text;
+            if (timNV(nv.MaNV) == null)
+            {
+                xulyNhanVien.them(nv);
+
+                HienThiDSNhanVien();
+            }
+            else
+                MessageBox.Show("Mã nhân viên " + nv.MaNV + " đã tồn tại!");
         }
     }
 }

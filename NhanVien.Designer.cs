@@ -50,23 +50,23 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_them = new System.Windows.Forms.Button();
             this.btn_xoa = new System.Windows.Forms.Button();
             this.btn_sua = new System.Windows.Forms.Button();
-            this.rNam = new System.Windows.Forms.RadioButton();
-            this.rNu = new System.Windows.Forms.RadioButton();
             this.btn_Luu = new System.Windows.Forms.Button();
+            this.rNu = new System.Windows.Forms.RadioButton();
+            this.rNam = new System.Windows.Forms.RadioButton();
+            this.btn_Them = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(487, 26);
+            this.label1.Location = new System.Drawing.Point(470, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 27);
+            this.label1.Size = new System.Drawing.Size(166, 27);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Quản lý nhân viên";
+            this.label1.Text = "Thông tin khách hàng";
             // 
             // label2
             // 
@@ -83,9 +83,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 20);
+            this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Mã nhân viên";
+            this.label3.Text = "Mã khách hàng";
             // 
             // label4
             // 
@@ -200,7 +200,7 @@
             // Column1
             // 
             this.Column1.DataPropertyName = "MaNV";
-            this.Column1.HeaderText = "Mã nhân viên";
+            this.Column1.HeaderText = "Mẫ khách hàng";
             this.Column1.MinimumWidth = 8;
             this.Column1.Name = "Column1";
             this.Column1.Width = 150;
@@ -253,16 +253,6 @@
             this.Column7.Name = "Column7";
             this.Column7.Width = 150;
             // 
-            // btn_them
-            // 
-            this.btn_them.Location = new System.Drawing.Point(922, 65);
-            this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(122, 57);
-            this.btn_them.TabIndex = 8;
-            this.btn_them.Text = "Thêm";
-            this.btn_them.UseVisualStyleBackColor = true;
-            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
-            // 
             // btn_xoa
             // 
             this.btn_xoa.Location = new System.Drawing.Point(922, 128);
@@ -283,28 +273,6 @@
             this.btn_sua.UseVisualStyleBackColor = true;
             this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
-            // rNam
-            // 
-            this.rNam.AutoSize = true;
-            this.rNam.Location = new System.Drawing.Point(166, 256);
-            this.rNam.Name = "rNam";
-            this.rNam.Size = new System.Drawing.Size(67, 24);
-            this.rNam.TabIndex = 10;
-            this.rNam.Text = "Nam";
-            this.rNam.UseVisualStyleBackColor = false;
-            // 
-            // rNu
-            // 
-            this.rNu.AutoSize = true;
-            this.rNu.Location = new System.Drawing.Point(261, 256);
-            this.rNu.Name = "rNu";
-            this.rNu.Size = new System.Drawing.Size(54, 24);
-            this.rNu.TabIndex = 11;
-            this.rNu.TabStop = true;
-            this.rNu.Text = "Nữ";
-            this.rNu.UseVisualStyleBackColor = true;
-            this.rNu.CheckedChanged += new System.EventHandler(this.rNu_CheckedChanged);
-            // 
             // btn_Luu
             // 
             this.btn_Luu.Location = new System.Drawing.Point(922, 250);
@@ -315,17 +283,49 @@
             this.btn_Luu.UseVisualStyleBackColor = true;
             this.btn_Luu.Click += new System.EventHandler(this.btn_Luu_Click);
             // 
+            // rNu
+            // 
+            this.rNu.AutoSize = true;
+            this.rNu.Location = new System.Drawing.Point(308, 259);
+            this.rNu.Name = "rNu";
+            this.rNu.Size = new System.Drawing.Size(54, 24);
+            this.rNu.TabIndex = 11;
+            this.rNu.TabStop = true;
+            this.rNu.Text = "Nữ";
+            this.rNu.UseVisualStyleBackColor = true;
+            this.rNu.CheckedChanged += new System.EventHandler(this.rNu_CheckedChanged);
+            // 
+            // rNam
+            // 
+            this.rNam.AutoSize = true;
+            this.rNam.Location = new System.Drawing.Point(177, 259);
+            this.rNam.Name = "rNam";
+            this.rNam.Size = new System.Drawing.Size(67, 24);
+            this.rNam.TabIndex = 10;
+            this.rNam.Text = "Nam";
+            this.rNam.UseVisualStyleBackColor = false;
+            // 
+            // btn_Them
+            // 
+            this.btn_Them.Location = new System.Drawing.Point(922, 66);
+            this.btn_Them.Name = "btn_Them";
+            this.btn_Them.Size = new System.Drawing.Size(122, 56);
+            this.btn_Them.TabIndex = 13;
+            this.btn_Them.Text = "Thêm";
+            this.btn_Them.UseVisualStyleBackColor = true;
+            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
+            // 
             // NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1268, 734);
-            this.Controls.Add(this.btn_Luu);
+            this.Controls.Add(this.btn_Them);
             this.Controls.Add(this.rNu);
             this.Controls.Add(this.rNam);
+            this.Controls.Add(this.btn_Luu);
             this.Controls.Add(this.btn_sua);
             this.Controls.Add(this.btn_xoa);
-            this.Controls.Add(this.btn_them);
             this.Controls.Add(this.dgvNhanVien);
             this.Controls.Add(this.dtNgaySinh);
             this.Controls.Add(this.txtDiaChi);
@@ -367,9 +367,11 @@
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.DateTimePicker dtNgaySinh;
         private System.Windows.Forms.DataGridView dgvNhanVien;
-        private System.Windows.Forms.Button btn_them;
         private System.Windows.Forms.Button btn_xoa;
         private System.Windows.Forms.Button btn_sua;
+        private System.Windows.Forms.Button btn_Luu;
+        private System.Windows.Forms.RadioButton rNu;
+        private System.Windows.Forms.RadioButton rNam;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -377,8 +379,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.RadioButton rNam;
-        private System.Windows.Forms.RadioButton rNu;
-        private System.Windows.Forms.Button btn_Luu;
+        private System.Windows.Forms.Button btn_Them;
     }
 }

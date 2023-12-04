@@ -47,5 +47,10 @@ namespace WindowsFormsApp1
             DangKy dk = new DangKy();
             dk.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
