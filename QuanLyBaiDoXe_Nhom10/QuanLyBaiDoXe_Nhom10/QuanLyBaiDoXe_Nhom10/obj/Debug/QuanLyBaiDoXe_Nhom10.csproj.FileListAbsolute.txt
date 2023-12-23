@@ -1,0 +1,32 @@
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.AssemblyReference.cache
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.Properties.Resources.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.GenerateResource.cache
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.CoreCompileInputs.cache
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.DangKy.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.DatCho.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.Form1.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.FormDatCho.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.GiaoDienChinh.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.KhachHang.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.ThongTinBaiDo.resources
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.exe.config
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.exe
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.pdb
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.exe
+D:\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.pdb
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.exe.config
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.exe
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\bin\Debug\QuanLyBaiDoXe_Nhom10.pdb
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.AssemblyReference.cache
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.DangKy.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.DatCho.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.Form1.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.FormDatCho.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.GiaoDienChinh.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.KhachHang.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.Properties.Resources.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.ThongTinBaiDo.resources
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.GenerateResource.cache
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.csproj.CoreCompileInputs.cache
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.exe
+E:\QuanLyBaiDoXe_Nhom10 (1)\QuanLyBaiDoXe_Nhom10\QuanLyBaiDoXe_Nhom10\obj\Debug\QuanLyBaiDoXe_Nhom10.pdb
